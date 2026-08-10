@@ -11,9 +11,7 @@ import com.znsio.teswiz.entities.Platform;
 import com.znsio.teswiz.runner.Api;
 import com.znsio.teswiz.runner.AppiumDeviceManager;
 import com.znsio.teswiz.runner.AppiumServerManager;
-import com.znsio.teswiz.runner.ConfigFileManager;
 import com.znsio.teswiz.runner.CustomCapabilities;
-import com.znsio.teswiz.runner.DesiredCapabilityBuilder;
 import com.znsio.teswiz.runner.Driver;
 import com.znsio.teswiz.runner.Drivers;
 import com.znsio.teswiz.runner.PluginCli;
@@ -129,13 +127,11 @@ public class TeswizPublicMethodsBL {
         asyncCommandLineExecutor.close();
         new AsyncCommandLineExecutor.CommandResult("output").getOutput();
 
-        String configFile = ConfigFileManager.CAPS.get();
+        String configFile = "./caps/theapp/theapp_local_web_capabilities.json";
         CustomCapabilities customCapabilities = CustomCapabilities.getInstance();
         customCapabilities.getCapabilities();
         customCapabilities.getCapabilityObjectFromKey("android");
         customCapabilities.createInstance(configFile);
-
-        new DesiredCapabilityBuilder().buildDesiredCapability(configFile, 0);
 
         AppiumDeviceManager.getAppiumDevice();
         AppiumServerManager appiumServerManager = new AppiumServerManager();

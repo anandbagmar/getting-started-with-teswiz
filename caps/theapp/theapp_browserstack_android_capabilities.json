@@ -17,11 +17,13 @@
     "newCommandTimeout": 300,
     "fullReset": true,
     "noSign": true,
-    "os_version": "12",
+    "os_version": "13",
     "platformName": "Android",
+    "printPageSourceOnFindFailure": true,
     "project": "teswiz",
     "resetKeyboard": true,
-    "unicodeKeyboard": true
+    "unicodeKeyboard": true,
+    "appiumServerLogLevel": "info"
   },
   "web": {
     "browserName": "chrome",
@@ -44,8 +46,7 @@
             "cloudName": "browserstack",
             "url": "https://hub-cloud.browserstack.com",
             "apiUrl": "https://api-cloud.browserstack.com/app-automate/",
-            "devices": [
-            ],
+            "devices": [],
             "web": {}
           }
         }
