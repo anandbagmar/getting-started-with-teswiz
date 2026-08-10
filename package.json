@@ -9,7 +9,7 @@
     "go-ios": "1.2.0"
   },
   "name": "teswiz",
-  "description": "[![1.0.24](https://jitpack.io/v/znsio/teswiz.svg)](https://jitpack.io/#znsio/teswiz) [![1.0.24](https://jitci.com/gh/znsio/teswiz/svg)](https://jitci.com/gh/znsio/teswiz) [![CI](https://github.com/znsio/teswiz/actions/workflows/Build_And_Run_Unit_Tests_CI.yml/badge.svg)](https://github.com/znsio/teswiz/actions/workflows/Build_And_Run_Unit_Tests_CI.yml) [![CodeQL](https://github.com/znsio/teswiz/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/znsio/teswiz/actions/workflows/codeql-analysis.yml)",
+  "description": "[![1.0.24](https://jitpack.io/v/anandbagmar/teswiz.svg)](https://jitpack.io/#anandbagmar/teswiz) [![1.0.24](https://jitci.com/gh/anandbagmar/teswiz/svg)](https://jitci.com/gh/anandbagmar/teswiz) [![CI](https://github.com/anandbagmar/teswiz/actions/workflows/Build_And_Run_Unit_Tests_CI.yml/badge.svg)](https://github.com/anandbagmar/teswiz/actions/workflows/Build_And_Run_Unit_Tests_CI.yml) [![CodeQL](https://github.com/anandbagmar/teswiz/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/anandbagmar/teswiz/actions/workflows/codeql-analysis.yml)",
   "version": "1.0.26",
   "main": "index.js",
   "directories": {

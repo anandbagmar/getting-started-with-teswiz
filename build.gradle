@@ -10,9 +10,9 @@ plugins {
     id "idea"
 }
 
-def teswizVersion = "1.0.28"
+def teswizVersion = "1.0.29"
 
-group = "com.github.znsio"
+group = "com.github.anandbagmar"
 version = "$teswizVersion"
 
 java {
@@ -150,7 +150,7 @@ tasks.register('downloadDependencies') {
                         name  : "teswiz",
                         type  : "jitpack",
                         params: [
-                                group         : "com.github.znsio",
+                                group         : "com.github.anandbagmar",
                                 artifact      : "teswiz",
                                 version       : "$teswizVersion",
                                 fileNameSuffix: "",
@@ -182,7 +182,7 @@ dependencies {
     implementation files(layout.buildDirectory.files("/classes/test"))
     testImplementation "org.junit.jupiter:junit-jupiter:5.10.3"
     testRuntimeOnly "org.junit.platform:junit-platform-launcher:1.10.3"
-    // implementation("com.github.znsio:teswiz:${teswizVersion}") {
+    // implementation("com.github.anandbagmar:teswiz:${teswizVersion}") {
     //     transitive = false
     // }
 }
