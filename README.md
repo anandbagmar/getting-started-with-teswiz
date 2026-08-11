@@ -9,35 +9,13 @@
 [![GitHub forks](https://img.shields.io/github/forks/anandbagmar/teswiz.svg?style=social&label=Fork)](https://github.com/anandbagmar/teswiz/network)
 
 ## Latest teswiz release status:
-[![0.0.86](https://jitpack.io/v/anandbagmar/teswiz.svg)](https://jitpack.io/#anandbagmar/teswiz)
+[![Release](https://jitpack.io/v/anandbagmar/teswiz.svg)](https://jitpack.io/#anandbagmar/teswiz)
 [![CI](https://github.com/anandbagmar/teswiz/actions/workflows/Build_And_Run_Unit_Tests_CI.yml/badge.svg)](https://github.com/anandbagmar/teswiz/actions/workflows/Build_And_Run_Unit_Tests_CI.yml)
 [![CodeQL](https://github.com/anandbagmar/teswiz/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/anandbagmar/teswiz/actions/workflows/codeql-analysis.yml)
 
 ## Latest successful teswiz build id:
 [![Latest Commit](https://img.shields.io/badge/commit-3c7981e497-blue.svg)](https://jitpack.io/#anandbagmar/teswiz)
 
-
-## 🚨 Breaking Changes
-
-### From Version `1.0.13` onward
-
-As part of package restructuring, context-related classes have moved to a new package.
-
-#### ❗ Required Update in Imports
-
-Replace:
-
-```java
-import com.context.SessionContext;
-import com.context.TestExecutionContext;
-```
-
-With:
-
-```java
-import com.znsio.teswiz.context.SessionContext;
-import com.znsio.teswiz.context.TestExecutionContext;
-```
 
 # NOTE
 
@@ -72,9 +50,6 @@ import com.znsio.teswiz.context.TestExecutionContext;
 
 # [Configuration options](https://github.com/anandbagmar/teswiz/blob/main/docs/features/ConfigurationParameters-README.md)
 Test execution using teswiz is highly configurable. This enables you to control what type of tests you want to execute, and where (environment, local/cloud), etc, without making changes to your code.
-
-# ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) Breaking changes in teswiz v0.0.81 ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png)
-Refer to the [breaking changes](https://github.com/anandbagmar/teswiz/blob/main/docs/internals/BreakingChanges-README.md) section in [teswiz](https://github.com/anandbagmar/teswiz) repo
 
 # [Feature/Functional coverage](https://github.com/anandbagmar/teswiz/blob/main/docs/internals/FeatureCoverage-README.md) from your test execution
 

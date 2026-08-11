@@ -17,7 +17,7 @@ import com.znsio.teswiz.runner.Drivers;
 import com.znsio.teswiz.runner.PluginCli;
 import com.znsio.teswiz.runner.Runner;
 import com.znsio.teswiz.runner.Visual;
-import com.znsio.teswiz.services.UnirestService;
+import com.znsio.teswiz.services.RestAssuredService;
 import com.znsio.teswiz.tools.*;
 import com.znsio.teswiz.tools.cmd.AsyncCommandLineExecutor;
 import com.znsio.teswiz.tools.cmd.CommandLineExecutor;
@@ -313,18 +313,18 @@ public class TeswizPublicMethodsBL {
         Visual.closeBatch();
         Visual.addMobileCapabilitiesToTestContextForVisualTesting(new DesiredCapabilities());
 
-        new UnirestService();
+        new RestAssuredService();
         ReportPortalLogger.logDebugMessage("logDebugMessage");
         ReportPortalLogger.logInfoMessage("logInfoMessage");
         ReportPortalLogger.logWarningMessage("logWarningMessage");
         ReportPortalLogger.attachFileInReportPortal("attachFileInReportPortal", new File("build.gradle"));
 
-        UnirestService.getHttpResponse("");
-        UnirestService.getHttpResponseWithQueryParameter("", "", "");
-        UnirestService.getHttpResponseWithQueryMap("", new HashMap<>());
-        UnirestService.postHttpRequest("", "");
-        UnirestService.patchHttpRequest("", "");
-        UnirestService.deleteHttpRequest("");
+        RestAssuredService.getHttpResponse("");
+        RestAssuredService.getHttpResponseWithQueryParameter("", "", "");
+        RestAssuredService.getHttpResponseWithQueryMap("", new HashMap<>());
+        RestAssuredService.postHttpRequest("", "");
+        RestAssuredService.patchHttpRequest("", "");
+        RestAssuredService.deleteHttpRequest("");
 
         new DateTime();
         DateTime.getFormattedMeetingTime(5);
