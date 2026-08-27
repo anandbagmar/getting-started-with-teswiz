@@ -14,7 +14,7 @@
 [![CodeQL](https://github.com/anandbagmar/teswiz/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/anandbagmar/teswiz/actions/workflows/codeql-analysis.yml)
 
 ## Latest successful teswiz build id:
-[![Latest Commit](https://img.shields.io/badge/commit-cd6a7f3b84-blue.svg)](https://jitpack.io/#anandbagmar/teswiz)
+[![Latest Commit](https://img.shields.io/badge/commit-e02f3adf6e-blue.svg)](https://jitpack.io/#anandbagmar/teswiz)
 
 
 # NOTE
